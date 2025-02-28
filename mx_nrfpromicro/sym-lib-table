@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EVQ-P7J01P")(type "KiCad")(uri "/Users/bhuvansh/Desktop/ble_kbd/Libraries/EVQ-P7J01P.kicad_sym")(options "")(descr ""))
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "/Users/bhuvansh/Desktop/ble_kbd/Libraries/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
+  (lib (name "ScottoKeebs")(type "KiCad")(uri "/Users/bhuvansh/Desktop/ble_kbd/Libraries/ScottoKeebs.kicad_sym")(options "")(descr ""))
+  (lib (name "EG1215AA")(type "KiCad")(uri "/Users/bhuvansh/Desktop/ble_kbd/Libraries/EG1215AA.kicad_sym")(options "")(descr ""))
+)
