@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "SW_PUSH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BLE_KBD:SW_SIDE_MOUNT"
 			(at 0 0 0)
 			(effects
 				(font

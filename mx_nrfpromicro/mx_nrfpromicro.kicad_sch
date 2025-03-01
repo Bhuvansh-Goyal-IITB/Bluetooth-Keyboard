@@ -124,15 +124,15 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "BLE_KBD:SS12F23G5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -276,7 +276,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "SW_PUSH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -284,7 +284,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "BLE_KBD:SW_SIDE_MOUNT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1275,12 +1275,6 @@
 		)
 	)
 	(junction
-		(at 138.43 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dea6a58-135c-4d15-89f6-dd3ff6d61f1d")
-	)
-	(junction
 		(at 162.56 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1304,6 +1298,12 @@
 		(color 0 0 0 0)
 		(uuid "dcfdd492-beb1-406a-8f01-4be85e39175c")
 	)
+	(junction
+		(at 138.43 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f283d449-b491-4065-afde-226bf6274b00")
+	)
 	(no_connect
 		(at 154.94 43.18)
 		(uuid "001baa34-7ab1-4167-9f65-28bf09035346")
@@ -1325,16 +1325,6 @@
 			(type default)
 		)
 		(uuid "035ebf13-4801-4d29-a2dd-84b9845fa840")
-	)
-	(wire
-		(pts
-			(xy 138.43 74.93) (xy 138.43 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f57d1b-06a6-4f92-bc23-c05c6d5c8ce4")
 	)
 	(wire
 		(pts
@@ -1378,13 +1368,23 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 74.93) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccdf604-7f1c-4e98-b4d0-583150ab7a84")
+	)
+	(wire
+		(pts
 			(xy 138.43 80.01) (xy 138.43 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7269c3c8-50bf-4bbe-ba91-7a833872de37")
+		(uuid "5d12d29d-41d4-4555-bc10-b53dd64aa94d")
 	)
 	(wire
 		(pts
@@ -2397,6 +2397,80 @@
 		)
 	)
 	(symbol
+		(lib_id "SW_SIDE_MOUNT:SW_SIDE_MOUNT")
+		(at 133.35 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ea309e-8a9c-4224-815d-3f5027c9a64f")
+		(property "Reference" "SW19"
+			(at 133.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLE_KBD:SW_SIDE_MOUNT"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "509b57d8-9b76-4f23-a963-a7638550d82b")
+		)
+		(pin "2"
+			(uuid "6201a5f9-e418-41e1-8433-692f0c2ae471")
+		)
+		(pin "3"
+			(uuid "8a865b54-bb64-40bc-96a7-7f7af19513bc")
+		)
+		(pin "4"
+			(uuid "7f1d4f77-6b27-49c5-9309-2ddb7c42b2dd")
+		)
+		(instances
+			(project ""
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 96.52 22.86 0)
 		(unit 1)
@@ -2591,85 +2665,6 @@
 			(project "mx_nrfpromicro"
 				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SS12F23G5:SS12F23G5")
-		(at 158.75 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10130565-d2dd-484a-8abe-5f2b0c263b72")
-		(property "Reference" "PWR_SW"
-			(at 163.83 24.7649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 163.83 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "BLE_KBD:SS12F23G5"
-			(at 158.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a1ef63d5-47c0-4eff-a1fe-7a75e2bf3fe1")
-		)
-		(pin "5"
-			(uuid "21778269-c068-4373-ac5e-851ed3e64203")
-		)
-		(pin "1"
-			(uuid "95106954-d3bb-4cce-a160-182b70e2426f")
-		)
-		(pin "4"
-			(uuid "67dd42d5-857b-40dc-8e36-a8e72f442e2e")
-		)
-		(pin "2"
-			(uuid "89cbc430-0a7f-4bde-bf1e-7b3eb3241211")
-		)
-		(instances
-			(project ""
-				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
-					(reference "PWR_SW")
 					(unit 1)
 				)
 			)
@@ -4810,6 +4805,85 @@
 		)
 	)
 	(symbol
+		(lib_id "SS12F23G5:SS12F23G5")
+		(at 158.75 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c72499a1-f2d7-46ec-a602-36634f32fed1")
+		(property "Reference" "SW18"
+			(at 163.83 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 163.83 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "BLE_KBD:SS12F23G5"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d17c841c-2b5c-45c8-97cf-9f85e0872c1e")
+		)
+		(pin "2"
+			(uuid "a44648e6-c454-4287-89a3-c6f4120b9a6e")
+		)
+		(pin "3"
+			(uuid "77eef1e1-9cb3-4cc9-8e58-bb9f13c1be40")
+		)
+		(pin "4"
+			(uuid "a55c4da4-e2ba-49aa-9902-d1ea20b255e2")
+		)
+		(pin "5"
+			(uuid "5d32feff-c382-4b6e-b911-757da3e9a510")
+		)
+		(instances
+			(project ""
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 166.37 33.02 0)
 		(unit 1)
@@ -5073,79 +5147,6 @@
 			(project "mx_nrfpromicro"
 				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SW_SIDE_MOUNT:SW_SIDE_MOUNT")
-		(at 133.35 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eaff2f85-3c18-4ebe-8a13-cb24cd0c4061")
-		(property "Reference" "RST"
-			(at 133.35 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BLE_KBD:SW_SIDE_MOUNT"
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8af60ac0-170e-4516-a23b-46beb3114a12")
-		)
-		(pin "2"
-			(uuid "16de8d91-2860-421c-881a-809b59891611")
-		)
-		(pin "4"
-			(uuid "7c6e67e9-c235-47bb-a601-de52c29fd7a7")
-		)
-		(pin "1"
-			(uuid "e3d41af9-3f0c-4a4c-9c13-dc0106a12a41")
-		)
-		(instances
-			(project ""
-				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
-					(reference "RST")
 					(unit 1)
 				)
 			)

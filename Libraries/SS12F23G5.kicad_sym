@@ -14,15 +14,15 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "SW_SPDT"
+			(at 0 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BLE_KBD:SS12F23G5"
 			(at 0 0 0)
 			(effects
 				(font
