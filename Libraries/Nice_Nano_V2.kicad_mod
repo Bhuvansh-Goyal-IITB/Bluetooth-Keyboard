@@ -1039,15 +1039,15 @@
 		(uuid "ad827714-6d8a-4515-9894-4131b841f024")
 	)
 	(embedded_fonts no)
-	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MCU.3dshapes/Nice_Nano_V2.step"
+	(model "/Users/bhuvansh/Downloads/nice-nano-v2-1/nice!nano v2.step"
 		(offset
-			(xyz 0 1.25 2.5)
+			(xyz 0 0.75 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 90)
 		)
 	)
 )

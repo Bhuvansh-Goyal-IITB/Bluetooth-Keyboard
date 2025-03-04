@@ -5,6 +5,321 @@
 	(uuid "ce115848-5daa-4079-937d-d5b781bb7914")
 	(paper "A4")
 	(lib_symbols
+		(symbol "436331045822:436331045822"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -0.13 7.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "436331045822"
+				(at -5.01 -5.38 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "436331045822:4363X10458XX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/436351045816/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "436351045816"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/436351045816/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "436331045822_0_0"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.47 2.74) (xy 1.04 -0.07)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers
 				(hide yes)
@@ -112,32 +427,38 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SS12F23G5:SS12F23G5"
+		(symbol "MLL1200S:MLL1200S"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 4.826 0)
+				(at -5.0897 8.1435 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_SPDT"
-				(at 0 -5.334 0)
+			(property "Value" "MLL1200S"
+				(at -5.3417 -7.3766 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BLE_KBD:SS12F23G5"
+			(property "Footprint" "MLL1200S:SW_MLL1200S"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -159,238 +480,354 @@
 					(hide yes)
 				)
 			)
-			(symbol "SS12F23G5_1_1"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
+			(property "Comment" "1437575-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Alcoswitch, Slide switch 2 way SPDT MLL series | TE Connectivity MLL1200S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MLL1200S/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturers recommendation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLL1200S/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MLL1200S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MLL1200S_0_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 0 5.08)
+					)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.54)
+					(radius 0.2)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.54)
+					(radius 0.2)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -1.524 3.556)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name ""
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name ""
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SW_SIDE_MOUNT:SW_SIDE_MOUNT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_PUSH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "BLE_KBD:SW_SIDE_MOUNT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SIDE_MOUNT_1_1"
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "3"
+					(number "G1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "4"
+					(number "G2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1275,16 +1712,28 @@
 		)
 	)
 	(junction
+		(at 125.73 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "076a876c-9950-4ca5-ac22-acbee7c53e88")
+	)
+	(junction
+		(at 151.13 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "670e7ce2-f786-48a3-9516-22338ef1071d")
+	)
+	(junction
+		(at 124.46 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e1e9b03-e1cd-4789-999f-b5838938d194")
+	)
+	(junction
 		(at 162.56 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7afc5c8d-8219-425c-98c5-8f0a63da7981")
-	)
-	(junction
-		(at 127 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97621c56-a11f-46be-a8d7-ef7ea98ce434")
 	)
 	(junction
 		(at 114.3 40.64)
@@ -1293,16 +1742,16 @@
 		(uuid "b9ac7122-f3c1-4892-9b5a-01d91314ed35")
 	)
 	(junction
-		(at 158.75 20.32)
+		(at 152.4 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcfdd492-beb1-406a-8f01-4be85e39175c")
+		(uuid "c60ac87b-ee0d-407e-b8cb-d599d848d6c7")
 	)
 	(junction
-		(at 138.43 80.01)
+		(at 204.47 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f283d449-b491-4065-afde-226bf6274b00")
+		(uuid "ea0b538d-ae5b-4048-ba7c-8647d1a78533")
 	)
 	(no_connect
 		(at 154.94 43.18)
@@ -1313,7 +1762,11 @@
 		(uuid "b84c0d04-a3bd-4dc4-b6cb-bee3e5c68d13")
 	)
 	(no_connect
-		(at 161.29 30.48)
+		(at 200.66 49.53)
+		(uuid "eef24d96-e579-4f0d-8a3e-88e7e6a06a72")
+	)
+	(no_connect
+		(at 200.66 33.02)
 		(uuid "f810adc8-4352-44be-b91a-a1de376b7748")
 	)
 	(wire
@@ -1325,6 +1778,36 @@
 			(type default)
 		)
 		(uuid "035ebf13-4801-4d29-a2dd-84b9845fa840")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c265bb-edf3-4b4d-a55f-54073078aee1")
+	)
+	(wire
+		(pts
+			(xy 200.66 54.61) (xy 204.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a67e6ce-d632-4f73-9824-15b14e41cea6")
+	)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 151.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b642930-d888-4bc0-904b-3d4ddee13296")
 	)
 	(wire
 		(pts
@@ -1348,43 +1831,93 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 19.05) (xy 158.75 20.32)
+			(xy 137.16 74.93) (xy 139.7 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40dd34ee-ec47-4537-b6ff-91d1b1b1bf4c")
+		(uuid "35730245-8b1f-41aa-aec0-6e6ef702d1b8")
 	)
 	(wire
 		(pts
-			(xy 156.21 33.02) (xy 153.67 33.02)
+			(xy 139.7 74.93) (xy 139.7 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50756a52-c5ac-44a9-a178-48bc249ab8f5")
+		(uuid "38d5bfbd-e4dd-4e78-ae75-41913d7bc8af")
 	)
 	(wire
 		(pts
-			(xy 138.43 74.93) (xy 138.43 80.01)
+			(xy 204.47 39.37) (xy 204.47 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ccdf604-7f1c-4e98-b4d0-583150ab7a84")
+		(uuid "410d5ecf-e392-41e8-9d7b-8d4f8519e47e")
 	)
 	(wire
 		(pts
-			(xy 138.43 80.01) (xy 138.43 83.82)
+			(xy 204.47 27.94) (xy 204.47 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d12d29d-41d4-4555-bc10-b53dd64aa94d")
+		(uuid "41b71402-5dff-4fd9-b76c-0fe7ad4e26c0")
+	)
+	(wire
+		(pts
+			(xy 163.83 85.09) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9265b6-7476-433b-9129-3a87c3f3c994")
+	)
+	(wire
+		(pts
+			(xy 166.37 74.93) (xy 166.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9d8044-a51d-46ac-987d-94b8dec84156")
+	)
+	(wire
+		(pts
+			(xy 121.92 74.93) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc3a851-d579-42cd-a050-33dd88998a42")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfbf2e0-1871-4b6d-b9f0-7efe5168e2d0")
+	)
+	(wire
+		(pts
+			(xy 152.4 87.63) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73845dbe-dcea-4360-b88d-22b6e2ced97b")
 	)
 	(wire
 		(pts
@@ -1398,33 +1931,93 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 83.82) (xy 127 83.82)
+			(xy 166.37 68.58) (xy 151.13 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96398f0e-1b15-4a71-b90c-b586a735007f")
+		(uuid "785e9f1f-0d96-4d3b-ac03-3baa2eb70ad6")
 	)
 	(wire
 		(pts
-			(xy 127 80.01) (xy 128.27 80.01)
+			(xy 152.4 82.55) (xy 153.67 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab92e626-a260-4ab3-bc7a-389ca11fbd5b")
+		(uuid "7b9cdce4-e651-4552-8d09-d8c560a7a206")
 	)
 	(wire
 		(pts
-			(xy 158.75 30.48) (xy 158.75 33.02)
+			(xy 163.83 74.93) (xy 166.37 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aca89ef4-eeb8-460f-80ce-74f2a18cdedf")
+		(uuid "81ee1ad1-3942-4665-91bc-7c3bd9a0acb7")
+	)
+	(wire
+		(pts
+			(xy 210.82 39.37) (xy 204.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e155111-b8ca-4ea0-806e-a6590f305b86")
+	)
+	(wire
+		(pts
+			(xy 151.13 68.58) (xy 151.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908971af-1886-4944-9423-c1b253ce41ae")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00483ca-f9f9-4cf2-abf4-022c57710a58")
+	)
+	(wire
+		(pts
+			(xy 152.4 82.55) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cbbac2-aed3-47d1-8692-9eeb7e38df78")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0abc4a8-2ed8-4952-a321-a1cedca35b2e")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5825062-5c69-4273-9fbf-9b3353272626")
 	)
 	(wire
 		(pts
@@ -1438,23 +2031,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 127 83.82)
+			(xy 200.66 27.94) (xy 204.47 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3365fc5-2b5d-434d-ac7c-37ddd2512d06")
+		(uuid "b96b1be3-fc63-4cb5-bceb-6b9383490839")
 	)
 	(wire
 		(pts
-			(xy 166.37 33.02) (xy 166.37 35.56)
+			(xy 124.46 74.93) (xy 127 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5b9e5f0-a000-4662-a127-d463a53f2de2")
+		(uuid "b9b2bc49-394b-4762-8046-0ca015dbc5c3")
 	)
 	(wire
 		(pts
@@ -1468,23 +2061,33 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 30.48) (xy 156.21 33.02)
+			(xy 151.13 74.93) (xy 153.67 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1f64a82-fbad-45d5-b667-d1c9571b7967")
+		(uuid "d840b658-f4a0-4c9a-9843-10df2bbf2bb8")
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 127 80.01)
+			(xy 124.46 68.58) (xy 124.46 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d71026d6-862e-4241-b6d9-be68d44dd8e5")
+		(uuid "dc031075-7dc9-46e5-9400-df309ebd2088")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 163.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1941a7c-7e97-49f9-a9eb-45ae53ce172b")
 	)
 	(wire
 		(pts
@@ -1498,6 +2101,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 87.63) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fb1561-b91e-4be8-9af5-66844ca4a3c4")
+	)
+	(wire
+		(pts
 			(xy 162.56 35.56) (xy 166.37 35.56)
 		)
 		(stroke
@@ -1508,16 +2121,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 20.32) (xy 158.75 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef862d61-ccdd-4412-a633-d22b3e5e33f0")
-	)
-	(wire
-		(pts
 			(xy 153.67 35.56) (xy 162.56 35.56)
 		)
 		(stroke
@@ -1525,16 +2128,6 @@
 			(type default)
 		)
 		(uuid "f3126e5f-25f5-4797-8b1d-5186089aff9c")
-	)
-	(wire
-		(pts
-			(xy 157.48 20.32) (xy 158.75 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6c68046-cf85-4f0e-90b3-174a17ccf1a9")
 	)
 	(global_label "SW14"
 		(shape input)
@@ -1580,6 +2173,28 @@
 			)
 		)
 	)
+	(global_label "B+"
+		(shape input)
+		(at 153.67 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16b74bdb-a875-4bc7-9a20-437d329a6e90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.4976 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW9"
 		(shape input)
 		(at 76.2 39.37 180)
@@ -1602,9 +2217,9 @@
 			)
 		)
 	)
-	(global_label "SW10"
+	(global_label "SW15"
 		(shape input)
-		(at 123.19 60.96 180)
+		(at 123.19 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1614,7 +2229,7 @@
 		)
 		(uuid "22fb5ce5-4e1b-40cd-b693-a1a7c8daff1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.1249 60.96 0)
+			(at 115.1249 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +2241,7 @@
 	)
 	(global_label "SW16"
 		(shape input)
-		(at 153.67 48.26 0)
+		(at 153.67 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1636,7 +2251,7 @@
 		)
 		(uuid "28176212-9d28-40bb-b921-163e5f52c185")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7351 48.26 0)
+			(at 161.7351 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +2283,7 @@
 			)
 		)
 	)
-	(global_label "SW4"
+	(global_label "SW9"
 		(shape input)
 		(at 123.19 45.72 180)
 		(fields_autoplaced yes)
@@ -1690,9 +2305,9 @@
 			)
 		)
 	)
-	(global_label "SW9"
+	(global_label "SW2"
 		(shape input)
-		(at 123.19 58.42 180)
+		(at 123.19 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1702,7 +2317,29 @@
 		)
 		(uuid "33440ce5-c24b-4396-b3e5-8a9e670bf832")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3344 58.42 0)
+			(at 116.3344 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B+"
+		(shape input)
+		(at 180.34 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3af37a27-74b0-4d0c-ab63-02ae6e9813d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.5124 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,9 +2393,9 @@
 			)
 		)
 	)
-	(global_label "SW6"
+	(global_label "SW13"
 		(shape input)
-		(at 123.19 50.8 180)
+		(at 123.19 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1768,7 +2405,7 @@
 		)
 		(uuid "439a8e98-05fa-4297-b845-7b987d27a948")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3344 50.8 0)
+			(at 115.1249 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,9 +2415,9 @@
 			)
 		)
 	)
-	(global_label "SW7"
+	(global_label "SW14"
 		(shape input)
-		(at 123.19 53.34 180)
+		(at 123.19 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1790,7 +2427,7 @@
 		)
 		(uuid "510ff7d6-00ff-4259-8972-2f6e211c59f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3344 53.34 0)
+			(at 115.1249 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,9 +2437,9 @@
 			)
 		)
 	)
-	(global_label "SW12"
+	(global_label "SW6"
 		(shape input)
-		(at 153.67 58.42 0)
+		(at 153.67 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1812,7 +2449,7 @@
 		)
 		(uuid "51dc3af4-f7f3-45ac-a2a4-865c83face91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7351 58.42 0)
+			(at 160.5256 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,6 +2481,28 @@
 			)
 		)
 	)
+	(global_label "B+"
+		(shape input)
+		(at 180.34 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58c1f103-30dd-475b-b909-17a7c48e4df5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.5124 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW16"
 		(shape input)
 		(at 76.2 77.47 180)
@@ -1866,9 +2525,9 @@
 			)
 		)
 	)
-	(global_label "SW14"
+	(global_label "SW12"
 		(shape input)
-		(at 153.67 53.34 0)
+		(at 153.67 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1878,7 +2537,7 @@
 		)
 		(uuid "6b4232e8-fec7-46ac-9fa1-e7cf88e705ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7351 53.34 0)
+			(at 161.7351 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +2547,7 @@
 			)
 		)
 	)
-	(global_label "SW3"
+	(global_label "SW10"
 		(shape input)
 		(at 123.19 43.18 180)
 		(fields_autoplaced yes)
@@ -1900,7 +2559,7 @@
 		)
 		(uuid "6e9033ef-8f69-4144-a884-0b1bc3ce077e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3344 43.18 0)
+			(at 115.1249 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,9 +2569,9 @@
 			)
 		)
 	)
-	(global_label "SW13"
+	(global_label "SW7"
 		(shape input)
-		(at 153.67 55.88 0)
+		(at 153.67 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1922,7 +2581,7 @@
 		)
 		(uuid "743b9ba6-a049-4b75-be54-032f7cd524fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7351 55.88 0)
+			(at 160.5256 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2591,7 @@
 			)
 		)
 	)
-	(global_label "SW15"
+	(global_label "SW1"
 		(shape input)
 		(at 153.67 50.8 0)
 		(fields_autoplaced yes)
@@ -1944,7 +2603,7 @@
 		)
 		(uuid "76e2cb52-ecd7-4f24-9472-c57be8227257")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7351 50.8 0)
+			(at 160.5256 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +2613,7 @@
 			)
 		)
 	)
-	(global_label "SW1"
+	(global_label "SW5"
 		(shape input)
 		(at 123.19 33.02 180)
 		(fields_autoplaced yes)
@@ -1978,7 +2637,7 @@
 	)
 	(global_label "SW11"
 		(shape input)
-		(at 153.67 60.96 0)
+		(at 153.67 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1988,7 +2647,7 @@
 		)
 		(uuid "81ec5cf0-87f5-4f2b-887e-cb26ad75b022")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7351 60.96 0)
+			(at 161.7351 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2679,7 @@
 			)
 		)
 	)
-	(global_label "SW5"
+	(global_label "SW3"
 		(shape input)
 		(at 123.19 48.26 180)
 		(fields_autoplaced yes)
@@ -2042,7 +2701,7 @@
 			)
 		)
 	)
-	(global_label "SW2"
+	(global_label "SW4"
 		(shape input)
 		(at 123.19 35.56 180)
 		(fields_autoplaced yes)
@@ -2088,7 +2747,7 @@
 	)
 	(global_label "SW17"
 		(shape input)
-		(at 153.67 45.72 0)
+		(at 153.67 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2098,7 +2757,7 @@
 		)
 		(uuid "b1ae966a-0907-45c1-a5f7-c417b741d9a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7351 45.72 0)
+			(at 161.7351 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2879,7 @@
 	)
 	(global_label "SW8"
 		(shape input)
-		(at 123.19 55.88 180)
+		(at 123.19 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2230,7 +2889,29 @@
 		)
 		(uuid "d7eca584-0375-4c12-bdf9-c317c6d8be0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3344 55.88 0)
+			(at 116.3344 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST"
+		(shape input)
+		(at 148.59 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1173aa7-0b0c-4b19-a20f-76ee2d75353d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.1577 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2967,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 128.27 74.93 180)
+		(at 121.92 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2296,7 +2977,7 @@
 		)
 		(uuid "fa6b7661-0c0b-474f-9173-482aa6e162ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.8377 74.93 0)
+			(at 115.4877 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +3035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 78.74 60.96 0)
 			(effects
 				(font
@@ -2397,80 +3078,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SW_SIDE_MOUNT:SW_SIDE_MOUNT")
-		(at 133.35 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06ea309e-8a9c-4224-815d-3f5027c9a64f")
-		(property "Reference" "SW19"
-			(at 133.35 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH"
-			(at 133.35 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BLE_KBD:SW_SIDE_MOUNT"
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "509b57d8-9b76-4f23-a963-a7638550d82b")
-		)
-		(pin "2"
-			(uuid "6201a5f9-e418-41e1-8433-692f0c2ae471")
-		)
-		(pin "3"
-			(uuid "8a865b54-bb64-40bc-96a7-7f7af19513bc")
-		)
-		(pin "4"
-			(uuid "7f1d4f77-6b27-49c5-9309-2ddb7c42b2dd")
-		)
-		(instances
-			(project ""
-				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
-					(reference "SW19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 96.52 22.86 0)
 		(unit 1)
@@ -2496,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 96.52 22.86 0)
 			(effects
 				(font
@@ -2696,7 +3303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 78.74 41.91 0)
 			(effects
 				(font
@@ -2764,7 +3371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 43.18 41.91 0)
 			(effects
 				(font
@@ -3030,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 60.96 22.86 0)
 			(effects
 				(font
@@ -3133,6 +3740,71 @@
 			(project "mx_nrfpromicro"
 				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3290b07c-dba2-48c3-ac7a-0e0230657472")
+		(property "Reference" "#PWR024"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06f27d08-80fe-473d-85f5-1f0405003368")
+		)
+		(instances
+			(project "mx_nrfpromicro"
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3274,7 +3946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 25.4 0)
+		(at 161.29 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3282,7 +3954,7 @@
 		(dnp no)
 		(uuid "46d9c2db-7af6-448d-8539-78d94e9bcf2e")
 		(property "Reference" "#PWR022"
-			(at 181.61 31.75 0)
+			(at 161.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 29.21 0)
+			(at 161.29 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 25.4 0)
+			(at 161.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 25.4 0)
+			(at 161.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 25.4 0)
+			(at 161.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +4077,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 181.61 25.4 0)
+		(at 161.29 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3414,7 +4086,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a39f1bf-237d-4b8f-adc2-6dd6d8afb6e7")
 		(property "Reference" "#FLG01"
-			(at 181.61 23.495 0)
+			(at 161.29 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +4095,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 181.61 20.32 0)
+			(at 161.29 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +4103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 25.4 0)
+			(at 161.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +4112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 25.4 0)
+			(at 161.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +4121,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 181.61 25.4 0)
+			(at 161.29 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +4167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1.5u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1.5u"
 			(at 78.74 80.01 0)
 			(effects
 				(font
@@ -3671,7 +4343,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 85.09 0)
+		(at 125.73 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3679,7 +4351,7 @@
 		(dnp no)
 		(uuid "6baf5bdd-8924-4d20-bac3-c764e171256b")
 		(property "Reference" "#PWR021"
-			(at 127 91.44 0)
+			(at 125.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +4360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 88.9 0)
+			(at 125.73 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +4368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 85.09 0)
+			(at 125.73 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +4377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 85.09 0)
+			(at 125.73 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +4386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 85.09 0)
+			(at 125.73 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 25.4 60.96 0)
 			(effects
 				(font
@@ -3869,6 +4541,161 @@
 		)
 	)
 	(symbol
+		(lib_id "436331045822:436331045822")
+		(at 132.08 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a665c67-d5db-49cf-b880-7f7b127ec871")
+		(property "Reference" "S1"
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "436331045822"
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLE_KBD:4363X10458XX"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/436351045816/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "436351045816"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/436351045816/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e2e5a2a-574d-497d-986d-85eaf41079e6")
+		)
+		(pin "3"
+			(uuid "a30d9022-a84d-49bf-9f3c-1ae3c4e52d35")
+		)
+		(pin "4"
+			(uuid "4157d94b-ba99-4c39-8735-6958fe365c19")
+		)
+		(pin "1"
+			(uuid "d4fe6eb8-e98e-404c-912f-53945f935204")
+		)
+		(instances
+			(project ""
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 63.5 0)
 		(unit 1)
@@ -3960,7 +4787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 43.18 60.96 0)
 			(effects
 				(font
@@ -4094,7 +4921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 96.52 60.96 0)
 			(effects
 				(font
@@ -4162,7 +4989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -4230,7 +5057,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 25.4 41.91 0)
 			(effects
 				(font
@@ -4274,7 +5101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 19.05 180)
+		(at 180.34 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4282,7 +5109,7 @@
 		(dnp no)
 		(uuid "a7deb779-48ad-4cad-b0d9-14d4777ce1c8")
 		(property "Reference" "#PWR01"
-			(at 158.75 12.7 0)
+			(at 180.34 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +5118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 15.24 0)
+			(at 180.34 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 19.05 0)
+			(at 180.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 19.05 0)
+			(at 180.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +5144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 19.05 0)
+			(at 180.34 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +5190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 78.74 22.86 0)
 			(effects
 				(font
@@ -4406,6 +5233,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 152.4 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abc18f29-a123-4f3a-9ada-cf65181ec6f5")
+		(property "Reference" "#PWR023"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b35ce398-f02e-4193-aba4-3ad2c788b4fb")
+		)
+		(instances
+			(project "mx_nrfpromicro"
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 60.96 41.91 0)
 		(unit 1)
@@ -4431,7 +5323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -4468,6 +5360,365 @@
 			(project "mx_nrfpromicro"
 				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MLL1200S:MLL1200S")
+		(at 190.5 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afd15ed8-ce53-4900-8476-5f33e63543fa")
+		(property "Reference" "SW19"
+			(at 190.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MLL1200S"
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLE_KBD:SW_MLL1200S"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "1437575-1"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Alcoswitch, Slide switch 2 way SPDT MLL series | TE Connectivity MLL1200S"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MLL1200S/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturers recommendation"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A2"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLL1200S/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MLL1200S"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7390847c-7775-4923-931e-e7437d87a0ba")
+		)
+		(pin "3"
+			(uuid "3cf60b0e-d4e4-4b35-bff2-b6061f03d4e2")
+		)
+		(pin "2"
+			(uuid "76eac47d-af41-4903-9cf3-b1e7aba3903d")
+		)
+		(pin "G1"
+			(uuid "2660a4f3-56f3-4cc5-84f3-b2080f020038")
+		)
+		(pin "G2"
+			(uuid "731f7527-7968-4d55-afd2-7cefc87492a9")
+		)
+		(pin "G3"
+			(uuid "4efd52e1-b055-4673-85cf-ee3aaf9095ac")
+		)
+		(pin "G4"
+			(uuid "c420f764-2117-4f4f-a124-8509670a6c26")
+		)
+		(instances
+			(project "mx_nrfpromicro"
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "436331045822:436331045822")
+		(at 158.75 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3dd67a4-402d-4420-9194-cf0674efe8a8")
+		(property "Reference" "S2"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "436331045822"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLE_KBD:4363X10458XX"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/436351045816/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "436351045816"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/436351045816/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 158.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9911273-0844-4037-ac6a-f80549bd5ce4")
+		)
+		(pin "3"
+			(uuid "498b01fe-d79a-4660-aaaa-5e05baf7749c")
+		)
+		(pin "4"
+			(uuid "078bdb23-02d0-41a1-b05e-6cede4f2495d")
+		)
+		(pin "1"
+			(uuid "621796a2-5a27-4e33-88dc-ecb16d45d391")
+		)
+		(instances
+			(project "mx_nrfpromicro"
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -4762,7 +6013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 25.4 22.86 0)
 			(effects
 				(font
@@ -4805,87 +6056,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SS12F23G5:SS12F23G5")
-		(at 158.75 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c72499a1-f2d7-46ec-a602-36634f32fed1")
-		(property "Reference" "SW18"
-			(at 163.83 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 163.83 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "BLE_KBD:SS12F23G5"
-			(at 158.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d17c841c-2b5c-45c8-97cf-9f85e0872c1e")
-		)
-		(pin "2"
-			(uuid "a44648e6-c454-4287-89a3-c6f4120b9a6e")
-		)
-		(pin "3"
-			(uuid "77eef1e1-9cb3-4cc9-8e58-bb9f13c1be40")
-		)
-		(pin "4"
-			(uuid "a55c4da4-e2ba-49aa-9902-d1ea20b255e2")
-		)
-		(pin "5"
-			(uuid "5d32feff-c382-4b6e-b911-757da3e9a510")
-		)
-		(instances
-			(project ""
-				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
-					(reference "SW18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 166.37 33.02 0)
+		(at 166.37 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4893,8 +6065,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbddd382-45b3-4e2d-9d2b-3190a33cd4be")
-		(property "Reference" "TP2"
-			(at 167.64 33.0199 0)
+		(property "Reference" "TP1"
+			(at 167.64 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +6075,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 167.64 34.2899 0)
+			(at 167.64 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,8 +6084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 171.45 33.02 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 171.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +6094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 33.02 0)
+			(at 171.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +6103,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 166.37 33.02 0)
+			(at 166.37 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4945,7 +6117,7 @@
 		(instances
 			(project "mx_nrfpromicro"
 				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4977,7 +6149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 43.18 22.86 0)
 			(effects
 				(font
@@ -5045,7 +6217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1.5u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1.5u"
 			(at 96.52 80.01 0)
 			(effects
 				(font
@@ -5153,6 +6325,210 @@
 		)
 	)
 	(symbol
+		(lib_id "MLL1200S:MLL1200S")
+		(at 190.5 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec69ab00-061b-4506-80a6-6910694b8576")
+		(property "Reference" "SW18"
+			(at 190.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MLL1200S"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BLE_KBD:SW_MLL1200S"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "1437575-1"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Alcoswitch, Slide switch 2 way SPDT MLL series | TE Connectivity MLL1200S"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MLL1200S/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturers recommendation"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A2"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MLL1200S/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MLL1200S"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f309a889-94fe-49fc-aa74-22488bdbc123")
+		)
+		(pin "3"
+			(uuid "04296e0a-8104-4f82-b84f-54bebfb5a724")
+		)
+		(pin "2"
+			(uuid "bca019fe-83dd-48ef-884d-f8919738ef53")
+		)
+		(pin "G1"
+			(uuid "9e3493cc-c181-4c31-ad22-686f7d6e21ce")
+		)
+		(pin "G2"
+			(uuid "0767aa4b-53f3-4ee5-9d0a-daec82250015")
+		)
+		(pin "G3"
+			(uuid "a2f4affb-69d2-42a4-83ee-7e401d58673d")
+		)
+		(pin "G4"
+			(uuid "60558db8-d5dc-402f-97a3-97adb3e33bfd")
+		)
+		(instances
+			(project ""
+				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 96.52 41.91 0)
 		(unit 1)
@@ -5178,7 +6554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BLE_KBD:MX_Optional_Reversible_1u"
+		(property "Footprint" "BLE_KBD:MX_Reversible_Optional_1u"
 			(at 96.52 41.91 0)
 			(effects
 				(font
@@ -5222,16 +6598,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 158.75 33.02 0)
+		(at 210.82 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f5a21bfe-ab89-43a3-8fce-567f2be19c7f")
-		(property "Reference" "TP1"
-			(at 160.02 33.0199 0)
+		(property "Reference" "TP2"
+			(at 212.09 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +6615,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 160.02 34.2899 0)
+			(at 212.09 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,8 +6624,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 163.83 33.02 0)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 215.9 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +6634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 33.02 0)
+			(at 215.9 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +6643,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 158.75 33.02 0)
+			(at 210.82 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +6657,7 @@
 		(instances
 			(project ""
 				(path "/ce115848-5daa-4079-937d-d5b781bb7914"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
