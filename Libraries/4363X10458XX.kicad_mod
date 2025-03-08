@@ -71,26 +71,6 @@
 		(uuid "5fd094d6-4542-49de-9270-e4a45e882b00")
 	)
 	(fp_line
-		(start -2.45 1.7)
-		(end -2.45 1.85)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "235cc5c7-627b-437c-a268-8e8371f28cea")
-	)
-	(fp_line
-		(start -2.45 1.85)
-		(end 2.45 1.85)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5b8c471a-db8f-4f35-8fee-3586f3a92881")
-	)
-	(fp_line
 		(start 2.45 -1.85)
 		(end 2.45 -1.7)
 		(stroke
@@ -99,16 +79,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "98e51c7a-90a2-401c-9da5-62c0a7011e33")
-	)
-	(fp_line
-		(start 2.45 1.85)
-		(end 2.45 1.7)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "78855eff-6b64-4a30-b9f3-19d67d1dfb54")
 	)
 	(fp_circle
 		(center 1.27 -1.4)
@@ -129,7 +99,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill yes)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "69329f39-bc43-432e-9833-fc911d8e09fc")
 	)
@@ -226,49 +196,49 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at 0 -1.375)
+		(at 0 -1.35)
 		(size 0.75 0.75)
 		(drill 0.75)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "e8c26a61-97f8-4f58-9ca7-db891066ce38")
 	)
 	(pad "" np_thru_hole circle
-		(at 0 1.375)
+		(at 0 1.35)
 		(size 0.75 0.75)
 		(drill 0.75)
-		(layers "*.Cu" "*.Mask")
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "ec61cc3c-7f12-482b-8377-b6d81a1620c2")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at 2.575 -0.85)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "094d20a4-8784-4888-9f59-795c428e64f7")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 2.575 0.85)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "33d2ef62-40f1-4fe5-a26c-5bb915702bd7")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -2.575 -0.85)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "a4fd9653-2623-4cd0-b8ed-c3a746344404")
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -2.575 0.85)
 		(size 1.5 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.102)
+		(roundrect_rratio 0.25)
 		(uuid "4ce8a6b0-8abe-4bcd-85c6-cdd686437c7d")
 	)
 	(embedded_fonts no)
-	(model "/Users/bhuvansh/Desktop/ble_kbd/Libraries/436331045822.step"
+	(model "C:/Users/bhuva/OneDrive - Indian Institute of Technology Bombay/Desktop/Bluetooth-Keyboard/Libraries/436331045822.step"
 		(offset
 			(xyz 0 0 0)
 		)

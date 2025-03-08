@@ -442,4 +442,15 @@
 		(uuid "94de2373-a62e-460a-a519-76a5621fe532")
 	)
 	(embedded_fonts no)
+	(model "C:/Users/bhuva/OneDrive - Indian Institute of Technology Bombay/Desktop/Bluetooth-Keyboard/Libraries/mx_switch.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
