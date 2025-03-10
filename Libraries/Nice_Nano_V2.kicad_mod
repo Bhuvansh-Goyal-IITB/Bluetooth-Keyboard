@@ -298,7 +298,7 @@
 		(uuid "ad827714-6d8a-4515-9894-4131b841f024")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/bhuva/OneDrive - Indian Institute of Technology Bombay/Desktop/Bluetooth-Keyboard/Libraries/nice!nano.step"
+	(model "/Users/bhuvansh/Desktop/ble_kbd/Libraries/nice!nano.step"
 		(offset
 			(xyz 0 0.75 4.2)
 		)
